@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '無限進步',
+      title: '无限进步',
     },
 
     pages: [
@@ -25,12 +25,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: '网络世界的小伙伴们',
         url: '/links/',
         icon: 'i-ri-open-arm-line',
-        color: 'hotpink',
-      },
-      {
-        name: '感情故事',
-        url: '/girls/',
-        icon: 'i-ri-heart-3-line',
         color: 'hotpink',
       },
       {
