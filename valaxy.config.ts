@@ -22,12 +22,6 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '网络世界的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-open-arm-line',
-        color: 'hotpink',
-      },
-      {
         name: '分类',
         url: '/categories/',
         icon: 'i-ri-apps-line',
