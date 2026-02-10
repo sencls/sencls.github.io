@@ -8,7 +8,7 @@ export default defineSiteConfig({
   subtitle: '存在的理由 不假外求',//网站副标题
   author: {
     name: 'sencl',//博主名称
-    avatar: "",	//头像链接
+    avatar: "/avater.png",	//头像链接
     status: {
       emoji: '💛'	// 头像旁边的emoji
     },
