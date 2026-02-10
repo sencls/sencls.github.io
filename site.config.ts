@@ -24,6 +24,14 @@ export default defineSiteConfig({
     },
   ],
 
+  search: {
+    enable: true,
+  },
+
+  comment: {
+    enable: false // 不使用评论功能
+  },
+
   statistics: {
       enable: true,
       readTime: {

@@ -17,31 +17,71 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '你来你来',
+      title: '無限進步',
     },
 
     pages: [
       {
-        name: '我的小伙伴们',
+        name: '网络世界的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-ri-open-arm-line',
+        color: 'hotpink',
+      },
+      {
+        name: '感情故事',
+        url: '/girls/',
+        icon: 'i-ri-heart-3-line',
+        color: 'hotpink',
+      },
+      {
+        name: '分类',
+        url: '/categories/',
+        icon: 'i-ri-apps-line',
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-bookmark-3-line',
+        color: 'dodgerblue',
       },
     ],
 
+    colors: {
+      primary: "#D69B54",
+    },
+
+    // 页脚
     footer: {
       since: 2026,
+      powered: true, // 显示 Valaxy 驱动信息
       beian: {
         enable: false,
+        icp: '',
+        police: '',
       },
+    },
+
+    // 背景图配置
+    bg_image: {
+      enable: false, // 如果不需要背景图，保持 false
+      url: "", // 白日模式背景
+      dark: "", // 夜间模式背景
+    },
+
+    // 鼠标点击烟花特效
+    fireworks: {
+      enable: true,
+      colors: ['#FFE57D', '#FFCD88', '#E6F4AD']
     },
   },
 
   unocss: { safelist },
+
+  siteConfig: {
+    // 启用评论（文章中的插件功能，已禁用）
+    comment: {
+      enable: false // 不使用评论功能
+    },
+  },
 })
