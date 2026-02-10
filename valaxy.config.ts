@@ -65,7 +65,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 背景图配置
     bg_image: {
       enable: true, // 启用背景图
-      url: "", // 白日模式背景
+      url: "/bg_day.png", // 白日模式背景
       dark: "/bg_dark.png", // 夜间模式背景（可使用同一张）
     },
 
