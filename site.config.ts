@@ -2,7 +2,7 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://sencls.github.io/',  //你网站的URL
-  favicon: "",	// 网页图标链接
+  favicon: "/webhead.png",	// 网页图标链接
   lang: 'zh-CN',  //默认语言
   title: "sencl的世界",  //网站标题
   subtitle: '存在的理由 不假外求',//网站副标题
