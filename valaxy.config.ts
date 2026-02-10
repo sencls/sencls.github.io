@@ -65,8 +65,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 背景图配置
     bg_image: {
       enable: true, // 启用背景图
-      url: "/bg1.jpg", // 白日模式背景
-      dark: "", // 夜间模式背景（可使用同一张）
+      url: "", // 白日模式背景
+      dark: "/bg_dark.png", // 夜间模式背景（可使用同一张）
     },
 
     // 鼠标点击烟花特效
