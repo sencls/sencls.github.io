@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sencls.github.io/</id>
+    <title>sencl的世界</title>
+    <updated>2026-02-12T02:58:12.094Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>sencl</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://sencls.github.io/"/>
+    <link rel="self" href="https://sencls.github.io/atom.xml"/>
+    <logo>https://sencls.github.io/avater.png</logo>
+    <icon>https://sencls.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © sencl</rights>
+    <entry>
+        <title type="html"><![CDATA[C++ 内存管理]]></title>
+        <id>https://sencls.github.io/posts/内存管理</id>
+        <link href="https://sencls.github.io/posts/内存管理"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>内存管理</h1>
+<blockquote>
+<p>本文件整理了 <code>memory assistance.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ul>
+<li><a href="#c-%E9%A3%8E%E6%A0%BC%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86">C 风格内存管理</a></li>
+<li>[C++ 风格内存管理]</li>
+</ul>
+<br/><p>访问 <a href="https://sencls.github.io/posts/内存管理" target="_blank">https://sencls.github.io/posts/内存管理</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ 单例模式]]></title>
+        <id>https://sencls.github.io/posts/单例模式</id>
+        <link href="https://sencls.github.io/posts/单例模式"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>单例模式</h1>
+<blockquote>
+<p>本文件整理了 <code>singleton_pattern.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>概念</h2>
+<p><strong>单例模式</strong>（Singleton Pattern）是创建型设计模式，确保</p>
+<br/><p>访问 <a href="https://sencls.github.io/posts/单例模式" target="_blank">https://sencls.github.io/posts/单例模式</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ 可调用对象]]></title>
+        <id>https://sencls.github.io/posts/可调用对象</id>
+        <link href="https://sencls.github.io/posts/可调用对象"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>可调用对象</h1>
+<blockquote>
+<p>本文件整理了 <code>lamd_function.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ul>
+<li><a href="#%E6%A6%82%E8%BF%B0">概述</a></li>
+<li><a href="#%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88">函数指针</a></li>
+<li>[仿函数（函数对象）]</li>
+</ul>
+<br/><p>访问 <a href="https://sencls.github.io/posts/可调用对象" target="_blank">https://sencls.github.io/posts/可调用对象</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ 左值与右值]]></title>
+        <id>https://sencls.github.io/posts/左值与右值</id>
+        <link href="https://sencls.github.io/posts/左值与右值"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>左值与右值</h1>
+<blockquote>
+<p>本文件整理了 <code>lv_rv.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ul>
+<li><a href="#%E5%AE%9A%E4%B9%89">定义</a></li>
+<li><a href="#c11-%E7%BB%86%E5%88%86">C++11 细分</a></li>
+<li><a href="#%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD">类型判断</a></li>
+</ul>
+<br/><p>访问 <a href="https://sencls.github.io/posts/左值与右值" target="_blank">https://sencls.github.io/posts/左值与右值</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ 模板元编程]]></title>
+        <id>https://sencls.github.io/posts/模板元编程</id>
+        <link href="https://sencls.github.io/posts/模板元编程"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>模板元编程</h1>
+<blockquote>
+<p>本文件整理了 <code>Template_Meta.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>概念</h2>
+<p><strong>模板元编程</strong>（Template Metaprogramming, TMP）是</p>
+<br/><p>访问 <a href="https://sencls.github.io/posts/模板元编程" target="_blank">https://sencls.github.io/posts/模板元编程</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ 模板特化]]></title>
+        <id>https://sencls.github.io/posts/模板特化</id>
+        <link href="https://sencls.github.io/posts/模板特化"/>
+        <updated>2026-02-12T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>模板特化</h1>
+<blockquote>
+<p>本文件整理了 <code>model.cpp</code> 中的注释内容</p>
+</blockquote>
+<hr>
+<h2>目录</h2>
+<ul>
+<li><a href="#%E6%A8%A1%E6%9D%BF%E6%A8%A1%E6%9D%BF%E5%8F%82%E6%95%B0">模板模板参数</a></li>
+<li><a href="#%E6%A8%A1%E6%9D%BF%E7%89%B9%E5%8C%96">模板特化</a></li>
+<li>[变参模板](#变参模板</li>
+</ul>
+<br/><p>访问 <a href="https://sencls.github.io/posts/模板特化" target="_blank">https://sencls.github.io/posts/模板特化</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-12T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STL 容器详解]]></title>
+        <id>https://sencls.github.io/posts/stl-containers</id>
+        <link href="https://sencls.github.io/posts/stl-containers"/>
+        <updated>2026-02-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>本文件整理了 <code>STL.cpp</code> 中的注释内容</p>
+</blockquote>
+<h2>目录</h2>
+<ul>
+<li><a href="#list%E5%8F%8C%E7%AB%AF%E9%93%BE%E8%A1%A8">list（双端链表）</a></li>
+<li><a href="#deque%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97">deque（双端队列）</a></li>
+<li>[map（关联容器</li>
+</ul>
+<br/><p>访问 <a href="https://sencls.github.io/posts/stl-containers" target="_blank">https://sencls.github.io/posts/stl-containers</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>sencl</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-10T00:00:00.000Z</published>
+    </entry>
+</feed>
