@@ -96,9 +96,51 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/hello-valaxy': RouteRecordInfo<
-      '/posts/hello-valaxy',
-      '/posts/hello-valaxy',
+    '/posts/内存管理': RouteRecordInfo<
+      '/posts/内存管理',
+      '/posts/%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/单例模式': RouteRecordInfo<
+      '/posts/单例模式',
+      '/posts/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/可调用对象': RouteRecordInfo<
+      '/posts/可调用对象',
+      '/posts/%E5%8F%AF%E8%B0%83%E7%94%A8%E5%AF%B9%E8%B1%A1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/左值与右值': RouteRecordInfo<
+      '/posts/左值与右值',
+      '/posts/%E5%B7%A6%E5%80%BC%E4%B8%8E%E5%8F%B3%E5%80%BC',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/模板元编程': RouteRecordInfo<
+      '/posts/模板元编程',
+      '/posts/%E6%A8%A1%E6%9D%BF%E5%85%83%E7%BC%96%E7%A8%8B',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/模板特化': RouteRecordInfo<
+      '/posts/模板特化',
+      '/posts/%E6%A8%A1%E6%9D%BF%E7%89%B9%E5%8C%96',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/stl-containers': RouteRecordInfo<
+      '/posts/stl-containers',
+      '/posts/stl-containers',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -183,9 +225,45 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/hello-valaxy.md': {
+    'pages/posts/内存管理.md': {
       routes:
-        | '/posts/hello-valaxy'
+        | '/posts/内存管理'
+      views:
+        | never
+    }
+    'pages/posts/单例模式.md': {
+      routes:
+        | '/posts/单例模式'
+      views:
+        | never
+    }
+    'pages/posts/可调用对象.md': {
+      routes:
+        | '/posts/可调用对象'
+      views:
+        | never
+    }
+    'pages/posts/左值与右值.md': {
+      routes:
+        | '/posts/左值与右值'
+      views:
+        | never
+    }
+    'pages/posts/模板元编程.md': {
+      routes:
+        | '/posts/模板元编程'
+      views:
+        | never
+    }
+    'pages/posts/模板特化.md': {
+      routes:
+        | '/posts/模板特化'
+      views:
+        | never
+    }
+    'pages/posts/stl-containers.md': {
+      routes:
+        | '/posts/stl-containers'
       views:
         | never
     }
