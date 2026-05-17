@@ -6,7 +6,6 @@ tags:
   - C++
   - 架构设计
   - 教程
-cover: https://example.com/hollow-katana-cover.jpg
 ---
 
 # 🗡️ Hollow Katana 项目技术教学指南
