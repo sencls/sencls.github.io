@@ -117,6 +117,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/定位new': RouteRecordInfo<
+      '/posts/定位new',
+      '/posts/%E5%AE%9A%E4%BD%8Dnew',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/左值与右值': RouteRecordInfo<
       '/posts/左值与右值',
       '/posts/%E5%B7%A6%E5%80%BC%E4%B8%8E%E5%8F%B3%E5%80%BC',
@@ -134,6 +141,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/模板特化': RouteRecordInfo<
       '/posts/模板特化',
       '/posts/%E6%A8%A1%E6%9D%BF%E7%89%B9%E5%8C%96',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/游戏架构设计教学文档': RouteRecordInfo<
+      '/posts/游戏架构设计教学文档',
+      '/posts/%E6%B8%B8%E6%88%8F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%95%99%E5%AD%A6%E6%96%87%E6%A1%A3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/PROJECT_TEACHING_GUIDE': RouteRecordInfo<
+      '/posts/PROJECT_TEACHING_GUIDE',
+      '/posts/PROJECT_TEACHING_GUIDE',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -243,6 +264,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/定位new.md': {
+      routes:
+        | '/posts/定位new'
+      views:
+        | never
+    }
     'pages/posts/左值与右值.md': {
       routes:
         | '/posts/左值与右值'
@@ -258,6 +285,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/模板特化.md': {
       routes:
         | '/posts/模板特化'
+      views:
+        | never
+    }
+    'pages/posts/游戏架构设计教学文档.md': {
+      routes:
+        | '/posts/游戏架构设计教学文档'
+      views:
+        | never
+    }
+    'pages/posts/PROJECT_TEACHING_GUIDE.md': {
+      routes:
+        | '/posts/PROJECT_TEACHING_GUIDE'
       views:
         | never
     }
