@@ -152,6 +152,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/AI智能体学习笔记': RouteRecordInfo<
+      '/posts/AI智能体学习笔记',
+      '/posts/AI%E6%99%BA%E8%83%BD%E4%BD%93%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/PROJECT_TEACHING_GUIDE': RouteRecordInfo<
       '/posts/PROJECT_TEACHING_GUIDE',
       '/posts/PROJECT_TEACHING_GUIDE',
@@ -291,6 +298,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/游戏架构设计教学文档.md': {
       routes:
         | '/posts/游戏架构设计教学文档'
+      views:
+        | never
+    }
+    'pages/posts/AI智能体学习笔记.md': {
+      routes:
+        | '/posts/AI智能体学习笔记'
       views:
         | never
     }
