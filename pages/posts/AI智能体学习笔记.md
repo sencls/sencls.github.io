@@ -161,7 +161,7 @@ ELIZA设计思想->从不正⾯回答问题或提供信息，⽽是通过识别�
 
 起初,统计方法是语言模型的主流,核心在于一个句子出现的概率，等于该句子中每个词出现的条件频率
 
-> $ P(S) = P(w_1,w_2,...,w_m) = P(w_1)*P(w_2|w_1)*...*P(w_m|w_1,...w_{m-1})$
+> $P(S) = P(w_1,w_2,...,w_m) = P(w_1)*P(w_2|w_1)*...*P(w_m|w_1,...w_{m-1})$
 
 即：概率的链式法则
 
@@ -169,26 +169,26 @@ ELIZA设计思想->从不正⾯回答问题或提供信息，⽽是通过识别�
 
 1. Bigram(N=2)，只与前一个单词有关
 
-> $ P(w_i|w_1,...,w_{i-1}) \approx P(w_i|w_{i-1}) $
+> $P(w_i|w_1,...,w_{i-1}) \approx P(w_i|w_{i-1})$
 
 2. trigram(N=3), 前两个
 
-> $ P(w_i|w_1,...,w_{i-1}) \approx P(w_i|w_{i-2},w_{i-1}) $
+> $P(w_i|w_1,...,w_{i-1}) \approx P(w_i|w_{i-2},w_{i-1})$
 
 可以通过**最大似然估计**来计算，本质上就是**出现次数越多，越可能出现**
 所有可以通过简单的计数来估算：
 
-> $P(w_i|w_{i-1}) = \frac{Count(w_{i-1},w_i)}{Count(w_{i-1})} $
+> $P(w_i|w_{i-1}) = \frac{Count(w_{i-1},w_i)}{Count(w_{i-1})}$
 > 其中$Count(w_{i-1},w_i)$表示词对$(w_{i-1},w_i)$连续出现的总次数，$Count(w_{i-1})$同理
 
 > e.g.
 > 有语料库 datawhale agent learns，datawhale agent works，使用Bigram,估算datawhale agent learns 出现的概率
 
-> 1. $ P(datawhale) = \frac{总语料的词数}{总语料中'datawhale'的数量} =\frac{6}{2} \approx 0.333 $
+> 1. $P(datawhale) = \frac{总语料的词数}{总语料中'datawhale'的数量} =\frac{6}{2} \approx 0.333$
 
-> 2. $ P(agent|datawhale) = \frac{whale次数}{总语料中'datawhale agent'的数量} =\frac{2}{2} = 1 $
+> 2. $P(agent|datawhale) = \frac{whale次数}{总语料中'datawhale agent'的数量} =\frac{2}{2} = 1$
 
-> 3. $ P(learns|agent) = \frac{agent次数}{总语料中'agent learns'的数量} =\frac{1}{2} = 0.5 $
+> 3. $P(learns|agent) = \frac{agent次数}{总语料中'agent learns'的数量} =\frac{1}{2} = 0.5$
 
 > 句子出现的概率是 0.333*1*0.5
 
@@ -208,7 +208,7 @@ N-gram模型将词孤立处理，为克服这个问题，在神经网络下，�
 
 得到的词向量，可以计算余弦相似度，即：
 
-> $ similarity(a,b) =cos(\theta) =\frac{a*b}{|a|*|b|}$
+> $similarity(a,b) =cos(\theta) =\frac{a*b}{|a|*|b|}$
 > 向量方向完全相同，cos=1，完全相关
 > 正交，cos=0，无关
 > 完全相反，cos=-1，完全无关
@@ -1096,8 +1096,8 @@ HelloAgent设计三种内置奖励函数，可单独使用或组合使用
 
 4. 混合策略
    准确率+长度惩罚： $r=r_{acc}- \alpha \cdot max(0,l-l_{target})$
-   准确率+步骤奖励: $ r =r_{acc}+\beta\cdot s$
-   三者平衡 :$ r =r_{acc}-\alpha\cdot max(0,l-l_{target})+\beta\cdot s$
+   准确率+步骤奖励: $r =r_{acc}+\beta\cdot s$
+   三者平衡 :$r =r_{acc}-\alpha\cdot max(0,l-l_{target})+\beta\cdot s$
 
 ### 2.3 自定义数据集和奖励函数
 
